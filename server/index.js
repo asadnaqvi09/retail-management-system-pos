@@ -8,10 +8,12 @@ const compression = require('compression');
 const morgan = require('morgan');
 const { connectDatabase, closeDatabase } = require('./config/database');
 const logger = require('./config/logger');
+const { apiLimiter } = require('./middleware/rateLimit.middleware');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+app.set('trust proxy', 1);
 app.use(helmet());
 app.use(cors({ exposedHeaders: ['X-Invoice-Number', 'X-Invoice-Format'] }));
 app.use(compression());
@@ -21,8 +23,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 const registerRoutes = require('./routes');
-
-app.set('trust proxy', 1);
 
 app.get('/health', async (req, res, next) => {
   try {
@@ -44,6 +44,7 @@ app.get('/health', async (req, res, next) => {
   }
 });
 
+app.use('/api/v1', apiLimiter);
 registerRoutes(app);
 
 app.use('/api/v1', (req, res) => {
