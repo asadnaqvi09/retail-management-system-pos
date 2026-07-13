@@ -219,13 +219,3 @@ npm run dev
 | `npm run dev` | `client/` | Vite + Electron |
 | `npm run build` | `client/` | Production renderer build |
 | `npm start` | `client/` | Electron with built renderer |
-
----
-
-## For Cursor Agents
-
-- **Start here:** This `Readme.md` for scope, stack, modules, and rules.
-- **Deep dive:** `docs/zyro_rms_prd.pdf` only when you need full FR IDs, DB schema, or acceptance criteria.
-- **UI reference:** Figma link above.
-- **Do not:** Add TypeScript, ORMs, Axios, or new module folders beyond the 20 listed.
-- **Do:** Match existing naming, keep diffs focused, put search/pagination in controllers as needed.
