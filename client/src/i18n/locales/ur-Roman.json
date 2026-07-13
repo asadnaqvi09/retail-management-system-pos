@@ -1,0 +1,1271 @@
+{
+  "app": {
+    "name": "Zyro RMS",
+    "tagline": "Retail Management System"
+  },
+  "auth": {
+    "welcomeBack": "Khush amdeed",
+    "signInSubtitle": "Apne store mein continue karne ke liye sign in karein",
+    "username": "Username",
+    "usernamePlaceholder": "Apna username likhein",
+    "password": "Password",
+    "passwordPlaceholder": "Apna password likhein",
+    "pin": "PIN",
+    "pinPlaceholder": "Apna 4-digit PIN likhein",
+    "passwordMode": "Password",
+    "pinMode": "PIN",
+    "rememberMe": "Mujhe yaad rakhein",
+    "signIn": "Sign in",
+    "signingIn": "Sign in ho raha hai...",
+    "logout": "Log out",
+    "loginSuccess": "Khush amdeed, {{name}}",
+    "logoutSuccess": "Aap log out ho gaye",
+    "loading": "Session load ho rahi hai...",
+    "errors": {
+      "usernameRequired": "Username zaroori hai",
+      "passwordRequired": "Password zaroori hai",
+      "pinRequired": "PIN zaroori hai",
+      "loginFailed": "Sign in nahi ho saka. Dobara try karein.",
+      "logoutFailed": "Log out nahi ho saka"
+    }
+  },
+  "sessionLock": {
+    "title": "Session locked",
+    "subtitle": "Continue karne ke liye apni credentials enter karein",
+    "lock": "Session lock karein",
+    "locked": "Session lock ho gayi",
+    "unlocked": "Session unlock ho gayi",
+    "unlock": "Unlock",
+    "unlocking": "Unlock ho raha hai...",
+    "pinMode": "PIN",
+    "passwordMode": "Password",
+    "pin": "PIN",
+    "pinPlaceholder": "Apna PIN likhein",
+    "password": "Password",
+    "passwordPlaceholder": "Apna password likhein",
+    "switchUser": "User switch karein",
+    "switchingUser": "Sign out ho raha hai...",
+    "errors": {
+      "pinRequired": "PIN zaroori hai",
+      "passwordRequired": "Password zaroori hai",
+      "unlockFailed": "Galat PIN ya password"
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "pos": "POS",
+    "products": "Products",
+    "inventory": "Inventory",
+    "customers": "Customers",
+    "salesHistory": "Sales History",
+    "exchanges": "Exchanges & Returns",
+    "expenses": "Expenses",
+    "reports": "Reports",
+    "seasonal": "Seasonal Sales",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Aaj ka business overview",
+    "newSale": "Nai Sale",
+    "loading": "Dashboard load ho raha hai...",
+    "refreshing": "Update ho raha hai",
+    "error": "Dashboard load nahi ho saka",
+    "live": "Live",
+    "topProducts": "Aaj ke Top Products",
+    "lowStock": "Low Stock Alerts",
+    "recentActivity": "Recent Activity",
+    "emptyTopProducts": "Aaj abhi tak koi sale nahi",
+    "emptyLowStock": "Stock levels theek hain",
+    "emptyActivity": "Koi recent activity nahi",
+    "charts": {
+      "revenue": "Revenue Trend",
+      "salesCount": "Sales Count",
+      "lastDays": "Last {{count}} din",
+      "noData": "No data"
+    },
+    "stats": {
+      "todaySales": "Aaj ki Sales",
+      "todayRevenue": "Aaj ka Revenue",
+      "todayProfit": "Aaj ka Profit",
+      "lowStock": "Low Stock Items"
+    },
+    "columns": {
+      "product": "Product",
+      "sku": "SKU",
+      "qtySold": "Qty Sold",
+      "revenue": "Revenue",
+      "onHand": "On Hand",
+      "threshold": "Threshold"
+    },
+    "activity": {
+      "sale": "Sale",
+      "return": "Return",
+      "exchange": "Exchange",
+      "expense": "Expense",
+      "inventory": "Inventory"
+    }
+  },
+  "pos": {
+    "title": "Billing / POS",
+    "newSale": "Nai Sale",
+    "draftSale": "Nai Sale",
+    "goToDashboard": "Dashboard par jayein",
+    "searchPlaceholder": "Product ka naam ya barcode / SKU search karein...",
+    "customer": "Customer",
+    "walkInCustomer": "Walk-in Customer",
+    "clearCustomer": "Walk-in customer use karein",
+    "customerSearchPlaceholder": "Naam ya phone se search karein...",
+    "noCustomersFound": "Koi customer nahi mila",
+    "quickAddCustomer": "Customer add karein",
+    "emptyCartTitle": "Cart khali hai",
+    "emptyCartSubtitle": "Products search ya scan karke cart mein add karein.",
+    "searching": "Product dhoondha ja raha hai...",
+    "noImage": "No img",
+    "stock": "Stock",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "promoApplied": "{{name}} apply hui",
+    "tax": "Tax",
+    "total": "Total",
+    "paymentMethod": "Payment method",
+    "amountTendered": "Diya hua amount",
+    "amountDue": "Wajib amount",
+    "change": "Change",
+    "digitalPaymentHint": "Poori raqam selected digital payment par record hogi.",
+    "completeSale": "Sale Complete Karein",
+    "completing": "Complete ho rahi hai...",
+    "holdCart": "Cart Hold Karein",
+    "heldCarts": "Held Carts",
+    "heldCartsSubtitle": "Park ki hui sales resume ya discard karein",
+    "noHeldCarts": "Koi held cart nahi",
+    "unnamedHold": "Held sale",
+    "resumedHold": "Resumed cart",
+    "items": "items",
+    "resume": "Resume",
+    "close": "Band karein",
+    "loading": "Load ho raha hai...",
+    "saleSuccess": "Sale complete — {{invoice}}",
+    "printingInvoice": "Invoice print ho rahi hai...",
+    "holdSuccess": "Cart hold ho gaya",
+    "resumeSuccess": "Held cart load ho gaya",
+    "discardSuccess": "Held cart discard ho gaya",
+    "payment": {
+      "cash": "Cash",
+      "card": "Card",
+      "jazzcash": "JazzCash",
+      "easypaisa": "EasyPaisa",
+      "bank_transfer": "Bank Transfer",
+      "bankTransfer": "Bank Transfer"
+    },
+    "errors": {
+      "lookupFailed": "Product nahi mila",
+      "previewFailed": "Totals calculate nahi ho saka",
+      "checkoutFailed": "Sale complete nahi ho saki",
+      "holdFailed": "Cart hold nahi ho saka",
+      "resumeFailed": "Held cart resume nahi ho saka",
+      "discardFailed": "Held cart discard nahi ho saka",
+      "insufficientStock": "Stock kaafi nahi hai",
+      "outOfStock": "Ye item out of stock hai"
+    }
+  },
+  "customers": {
+    "title": "Customers",
+    "subtitle": "Customer profiles aur purchase history manage karein",
+    "addCustomer": "Customer Add Karein",
+    "createTitle": "Naya Customer",
+    "editTitle": "Customer Edit Karein",
+    "detailSubtitle": "Profile aur purchase history",
+    "searchPlaceholder": "Naam, phone ya email se search karein...",
+    "search": "Search",
+    "loading": "Customer load ho raha hai...",
+    "view": "View",
+    "edit": "Edit",
+    "deactivate": "Deactivate",
+    "loyalty": "Loyalty points",
+    "loyaltyPoints": "{{count}} points",
+    "recentPurchases": "Recent purchases",
+    "noPurchases": "Abhi koi purchase nahi",
+    "emptyTitle": "Koi customer nahi mila",
+    "emptySubtitle": "Pehla customer add karein ya filters change karein.",
+    "createSuccess": "Customer create ho gaya",
+    "updateSuccess": "Customer update ho gaya",
+    "deactivateSuccess": "Customer deactivate ho gaya",
+    "deactivateConfirm": "\"{{name}}\" deactivate karein?",
+    "filters": {
+      "all": "All"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "customer": "Customer",
+      "contact": "Contact",
+      "purchases": "Purchases",
+      "totalSpent": "Total spent",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "{{from}}–{{to}} of {{total}} dikha rahe hain",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "e.g. Sara Ahmed",
+      "phone": "Phone",
+      "phonePlaceholder": "e.g. 0300 1234567",
+      "email": "Email",
+      "emailPlaceholder": "Optional email",
+      "address": "Address",
+      "addressPlaceholder": "Optional address",
+      "notes": "Notes",
+      "notesPlaceholder": "Optional notes",
+      "status": "Status",
+      "create": "Customer create karein",
+      "save": "Changes save karein",
+      "saving": "Save ho raha hai...",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Customers load nahi ho sake",
+      "saveFailed": "Customer save nahi ho saka",
+      "deactivateFailed": "Customer deactivate nahi ho saka"
+    }
+  },
+  "cashRegister": {
+    "title": "Cash Register",
+    "subtitle": "Shift open/close karein aur cash reconcile karein",
+    "registerClosed": "Register Band",
+    "registerOpen": "Register Open",
+    "openByOther": "{{name}} ne open kiya",
+    "openingAmount": "Opening float",
+    "expectedClosing": "Expected cash",
+    "actualClosing": "Gina hua cash",
+    "variance": "Variance",
+    "varianceNote": "Variance note",
+    "varianceNotePlaceholder": "Over/short cash ki wajah likhein",
+    "transactions": "Transactions",
+    "revenue": "Revenue",
+    "cashSales": "Cash sales",
+    "sessionOpen": "Register open hai",
+    "openedAt": "Open hua: {{time}}",
+    "openRegister": "Register Open Karein",
+    "opening": "Open ho raha hai...",
+    "closeRegister": "Register Close Karein",
+    "closing": "Close ho raha hai...",
+    "startClose": "Register Close Karein",
+    "back": "Wapas",
+    "cancel": "Cancel",
+    "openSuccess": "Cash register open ho gaya",
+    "closeSuccess": "Cash register close ho gaya",
+    "lockedTitle": "Register use mein hai",
+    "lockedSubtitle": "{{name}} ne is store ka register open kiya hai.",
+    "errors": {
+      "openFailed": "Cash register open nahi ho saka",
+      "closeFailed": "Cash register close nahi ho saka",
+      "sessionRequired": "Sale se pehle cash register open karein"
+    }
+  },
+  "invoices": {
+    "printing": "Invoice print ho rahi hai...",
+    "printSuccess": "Invoice printer ko bhej di gayi",
+    "reprint": "Invoice dubara print karein",
+    "errors": {
+      "printFailed": "Invoice print nahi ho saki",
+      "popupBlocked": "Print window block hai — popups allow karein"
+    }
+  },
+  "exchanges": {
+    "title": "Exchanges & Returns",
+    "subtitle": "Invoice dhoondhein, items return karein, ya replacement exchange karein",
+    "startOver": "Dobara shuru karein",
+    "back": "Wapas",
+    "continue": "Settlement par jayein",
+    "confirm": "Exchange complete karein",
+    "submitting": "Process ho raha hai...",
+    "loadingSale": "Invoice details load ho rahi hain...",
+    "previewing": "Settlement calculate ho rahi hai...",
+    "previewUnavailable": "Current selection ke liye settlement calculate nahi ho saki.",
+    "policyExpired": "Return window khatam",
+    "policyOk": "{{days}} din ke return window mein",
+    "success": "{{type}} complete — {{number}}",
+    "replacementPlaceholder": "Replacement SKU / barcode scan ya search karein",
+    "addReplacement": "Replacement add karein",
+    "noReplacements": "Exchange ke liye replacement items search karein.",
+    "steps": {
+      "lookup": "Invoice dhoondhein",
+      "select": "Items select karein",
+      "settlement": "Settlement"
+    },
+    "types": {
+      "return": "Return",
+      "exchange": "Exchange"
+    },
+    "lookup": {
+      "invoice": "Invoice / barcode",
+      "phone": "Customer phone",
+      "invoicePlaceholder": "Invoice number ya receipt barcode",
+      "phonePlaceholder": "Customer phone number",
+      "search": "Search",
+      "searching": "Search ho rahi hai...",
+      "empty": "Koi matching invoice nahi mili"
+    },
+    "table": {
+      "product": "Product",
+      "variant": "Variant",
+      "purchased": "Purchased",
+      "returnable": "Returnable",
+      "returnQty": "Return qty",
+      "disposition": "Disposition"
+    },
+    "disposition": {
+      "restock": "Restock",
+      "damaged": "Damaged"
+    },
+    "mode": {
+      "return": "Sirf return",
+      "exchange": "Replacement exchange"
+    },
+    "settlement": {
+      "title": "Settlement summary",
+      "returnValue": "Return value",
+      "newValue": "New items value",
+      "net": "Net difference",
+      "even": "Koi balance due nahi — payment ke baghair complete ho sakta hai",
+      "customerPays": "Customer ko dena hai {{amount}}",
+      "refund": "Customer ko refund {{amount}}"
+    },
+    "override": {
+      "title": "Admin override zaroori — ye sale return policy window se bahar hai",
+      "username": "Admin username",
+      "pin": "Admin PIN ya password"
+    },
+    "payment": {
+      "title": "Payment / refund",
+      "notRequired": "Is transaction ke liye payment ya refund zaroori nahi."
+    },
+    "errors": {
+      "lookupFailed": "Invoice nahi mili",
+      "previewFailed": "Exchange preview nahi ho saki",
+      "replacementFailed": "Replacement product nahi mila",
+      "submitFailed": "Exchange complete nahi ho saki"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Sales, profit, inventory aur team performance analyze karein",
+    "loading": "Report load ho rahi hai...",
+    "empty": "Selected period ke liye koi data nahi",
+    "dateFrom": "From",
+    "dateTo": "To",
+    "print": "Print",
+    "exportSuccess": "Report export ho gayi",
+    "tabs": {
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "profit": "Profit",
+      "inventory": "Inventory",
+      "top-selling": "Top Selling",
+      "low-selling": "Low Selling",
+      "cashier-performance": "Cashiers",
+      "returns": "Returns",
+      "exchanges": "Exchanges",
+      "payment-methods": "Payments"
+    },
+    "sales": {
+      "totalSales": "Total sales",
+      "revenue": "Revenue",
+      "discounts": "Discounts",
+      "tax": "Tax",
+      "period": "Period",
+      "saleCount": "Sales",
+      "range": "Group by",
+      "ranges": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+      },
+      "transactions": "Transactions",
+      "invoice": "Invoice",
+      "cashier": "Cashier",
+      "customer": "Customer",
+      "date": "Date"
+    },
+    "revenue": {
+      "total": "Total revenue",
+      "name": "Name",
+      "quantity": "Quantity",
+      "amount": "Revenue",
+      "share": "Share",
+      "groupBy": "Group by",
+      "groups": {
+        "category": "Category",
+        "brand": "Brand",
+        "product": "Product"
+      }
+    },
+    "profit": {
+      "revenue": "Revenue",
+      "cogs": "COGS",
+      "gross": "Gross profit",
+      "expenses": "Expenses",
+      "net": "Net profit"
+    },
+    "inventory": {
+      "costValue": "Stock at cost",
+      "retailValue": "Stock at retail",
+      "skus": "SKUs in stock",
+      "deadStock": "Dead stock items",
+      "valuation": "Stock valuation",
+      "deadStockTitle": "Dead stock (no recent sales)",
+      "sku": "SKU",
+      "product": "Product",
+      "quantity": "Qty",
+      "lastSale": "Last sale",
+      "neverSold": "Kabhi sell nahi hua"
+    },
+    "products": {
+      "product": "Product",
+      "sku": "SKU",
+      "quantity": "Quantity",
+      "revenue": "Revenue"
+    },
+    "cashier": {
+      "name": "Cashier",
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "discounts": "Discounts",
+      "exchanges": "Exchanges",
+      "returns": "Returns"
+    },
+    "returns": {
+      "count": "Return count",
+      "value": "Return value"
+    },
+    "exchanges": {
+      "count": "Exchange count",
+      "net": "Net amount",
+      "from": "Returned",
+      "to": "Replacement"
+    },
+    "payments": {
+      "total": "Total collected",
+      "method": "Method",
+      "transactions": "Transactions",
+      "amount": "Amount",
+      "share": "Share"
+    },
+    "errors": {
+      "loadFailed": "Report load nahi ho saki",
+      "exportFailed": "Report export nahi ho saki",
+      "printFailed": "Report print nahi ho saki"
+    }
+  },
+  "barcodes": {
+    "title": "Barcode Labels",
+    "subtitle": "Store name, product, price, SKU aur scannable barcode ke sath printable labels",
+    "singleTitle": "Label Print Karein",
+    "bulkTitle": "Bulk Labels Print Karein",
+    "template": "Label size",
+    "copies": "Copies",
+    "variantList": "Print hone wale variants",
+    "useStockCounts": "Stock counts use karein",
+    "totalLabels": "{{count}} label(s) print hongi",
+    "print": "Labels Print Karein",
+    "printing": "Print ho raha hai...",
+    "printAll": "Sab Labels Print Karein",
+    "cancel": "Cancel",
+    "printSuccess": "{{count}} label(s) printer ko bhej di gayi",
+    "templates": {
+      "40x30": "40 × 30 mm (thermal roll)",
+      "50x25": "50 × 25 mm (thermal roll)",
+      "a4_sheet": "A4 sheet (40 × 30 mm grid)"
+    },
+    "table": {
+      "variant": "Variant",
+      "sku": "SKU",
+      "copies": "Copies",
+      "print": "Print"
+    },
+    "errors": {
+      "printFailed": "Labels print nahi ho sakin",
+      "popupBlocked": "Labels print karne ke liye pop-ups allow karein",
+      "noPrintableVariants": "Print ke liye koi active variant with barcode nahi"
+    }
+  },
+  "promotions": {
+    "title": "Seasonal Sales",
+    "subtitle": "Date-bound promotions schedule karein jo POS checkout par khud apply hon",
+    "addPromotion": "Nai Promotion",
+    "newPromotion": "Promotion Banayein",
+    "editPromotion": "Promotion Edit Karein",
+    "createPromotion": "Promotion Banayein",
+    "saveChanges": "Changes Save Karein",
+    "searchPlaceholder": "Promotions search karein...",
+    "loading": "Promotions load ho rahi hain...",
+    "emptyTitle": "Abhi koi promotion nahi",
+    "emptySubtitle": "Seasonal sale banayein taake date range mein products par discount khud lage.",
+    "createSuccess": "Promotion ban gayi",
+    "updateSuccess": "Promotion update ho gayi",
+    "deleteSuccess": "Promotion delete ho gayi",
+    "deleteConfirm": "Yeh promotion delete karein?",
+    "fixedValue": "Rs. {{value}} off",
+    "filters": {
+      "all": "Sab"
+    },
+    "status": {
+      "active": "Active",
+      "scheduled": "Scheduled",
+      "expired": "Expired"
+    },
+    "types": {
+      "percentage": "Percentage",
+      "fixed": "Fixed amount"
+    },
+    "scopes": {
+      "store_wide": "Store-wide",
+      "product": "Product",
+      "category": "Category",
+      "brand": "Brand"
+    },
+    "precedence": {
+      "most_specific": "Most specific scope wins",
+      "highest_discount": "Highest discount wins"
+    },
+    "table": {
+      "name": "Name",
+      "scope": "Scope",
+      "discount": "Discount",
+      "status": "Status",
+      "dates": "Date range",
+      "usage": "Uses",
+      "actions": "Actions"
+    },
+    "form": {
+      "name": "Promotion name",
+      "namePlaceholder": "Eid Sale, End of Season...",
+      "type": "Discount type",
+      "discountValue": "Discount value",
+      "scope": "Scope",
+      "scopeTarget": "Applies to",
+      "scopeTargetPlaceholder": "Target select karein",
+      "startAt": "Starts",
+      "endAt": "Ends",
+      "precedence": "Overlap rule"
+    },
+    "pagination": {
+      "summary": "Page {{page}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "cancel": "Cancel",
+    "errors": {
+      "loadFailed": "Promotions load nahi ho sakin",
+      "saveFailed": "Promotion save nahi ho saki",
+      "deleteFailed": "Promotion delete nahi ho saki"
+    }
+  },
+  "expenses": {
+    "title": "Expenses",
+    "subtitle": "Operating costs track karein taake profit picture sahi rahe",
+    "addExpense": "Expense add karein",
+    "searchPlaceholder": "Category ya note se search karein...",
+    "search": "Search",
+    "loading": "Expenses load ho rahi hain...",
+    "listTotal": "Filtered total: {{amount}}",
+    "emptyTitle": "Koi expense record nahi",
+    "emptySubtitle": "Operating costs track karne ke liye pehli expense add karein.",
+    "createSuccess": "Expense record ho gayi",
+    "updateSuccess": "Expense update ho gayi",
+    "deleteSuccess": "Expense delete ho gayi",
+    "deleteConfirm": "Is expense ko delete karein?",
+    "categoryCreateSuccess": "Category ban gayi",
+    "filters": {
+      "allCategories": "Tamam categories"
+    },
+    "summary": {
+      "title": "Monthly summary",
+      "empty": "Selected period mein koi expense nahi.",
+      "filteredTotal": "Period total"
+    },
+    "categories": {
+      "title": "Categories",
+      "placeholder": "Nayi category ka naam",
+      "add": "Add",
+      "system": "system"
+    },
+    "table": {
+      "date": "Date",
+      "category": "Category",
+      "amount": "Amount",
+      "payment": "Payment",
+      "recordedBy": "Recorded by",
+      "note": "Note",
+      "receipt": "Receipt",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "{{from}}–{{to}} / {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "form": {
+      "category": "Category",
+      "categoryPlaceholder": "Category select karein",
+      "amount": "Amount",
+      "amountPlaceholder": "e.g. 5000",
+      "date": "Date",
+      "paymentMethod": "Payment method",
+      "note": "Note",
+      "notePlaceholder": "Optional note",
+      "receipt": "Receipt photo",
+      "viewReceipt": "Current receipt dekhein",
+      "create": "Expense record karein",
+      "save": "Changes save karein",
+      "saving": "Save ho raha hai...",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Expenses load nahi ho sakin",
+      "saveFailed": "Expense save nahi ho saki",
+      "deleteFailed": "Expense delete nahi ho saki",
+      "categoryFailed": "Category save nahi ho saki"
+    }
+  },
+  "sales": {
+    "title": "Sales History",
+    "subtitle": "Complete aur void sales dekhein",
+    "searchPlaceholder": "Invoice, cashier ya customer search karein...",
+    "search": "Search",
+    "loading": "Sales load ho rahi hain...",
+    "emptyTitle": "Koi sale nahi mili",
+    "walkInCustomer": "Walk-in",
+    "payments": "Payments",
+    "void": "Sale void karein",
+    "voiding": "Void ho rahi hai...",
+    "voidConfirm": "Is sale ko void karein aur stock wapas karein?",
+    "voidSuccess": "Sale void ho gayi",
+    "table": {
+      "invoice": "Invoice",
+      "date": "Date",
+      "cashier": "Cashier",
+      "customer": "Customer",
+      "total": "Total",
+      "status": "Status"
+    },
+    "status": {
+      "completed": "Completed",
+      "voided": "Voided"
+    },
+    "pagination": {
+      "summary": "{{from}}–{{to}} of {{total}} dikha rahe hain",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "errors": {
+      "loadFailed": "Sales history load nahi ho saki",
+      "voidFailed": "Sale void nahi ho saki"
+    }
+  },
+  "topbar": {
+    "searchPlaceholder": "Products, customers, invoices search karein...",
+    "registerOpen": "Register Open"
+  },
+  "connectivity": {
+    "offline": "Offline — connect hone par changes sync hongi",
+    "pendingSync": "{{count}} pending sync",
+    "syncNow": "Abhi sync karein"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Catalog, pricing aur images manage karein",
+    "addProduct": "Naya Product",
+    "import": "Import",
+    "importing": "Import ho raha hai...",
+    "exportCsv": "CSV Export",
+    "exportXlsx": "XLSX Export",
+    "searchPlaceholder": "Naam ya SKU se search karein...",
+    "emptyTitle": "Koi product nahi mila",
+    "emptySubtitle": "Pehla product banayein ya filters change karein.",
+    "noCategory": "Bina category",
+    "noBrand": "Bina brand",
+    "createTitle": "Naya Product",
+    "createSubtitle": "Variants se pehle base product add karein",
+    "backToList": "Products par wapas",
+    "archive": "Archive",
+    "archiving": "Archive ho raha hai...",
+    "readOnly": "Aap yeh product dekh sakte hain lekin edit nahi kar sakte.",
+    "createSuccess": "Product ban gaya",
+    "updateSuccess": "Product update ho gaya",
+    "archiveSuccess": "Product archive ho gaya",
+    "archiveConfirm": "Is product ko archive karein? Yeh inactive mark ho jayega.",
+    "importSuccess": "Import complete: {{created}} banay, {{skipped}} skip, {{failed}} fail",
+    "importPartialFailed": "Import mein {{count}} rows fail hui",
+    "exportSuccess": "Products export ho gaye",
+    "filters": {
+      "all": "Sab"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "draft": "Draft"
+    },
+    "table": {
+      "product": "Product",
+      "sku": "SKU",
+      "category": "Category",
+      "price": "Price",
+      "variants": "Variants",
+      "status": "Status"
+    },
+    "pagination": {
+      "summary": "{{from}}–{{to}} dikha rahe hain, kul {{total}}",
+      "previous": "Pehle",
+      "next": "Agle"
+    },
+    "form": {
+      "createHeading": "Product details",
+      "editHeading": "Product edit karein",
+      "name": "Product ka naam",
+      "namePlaceholder": "maslan Classic Polo Shirt",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional description",
+      "baseSku": "Base SKU",
+      "baseSkuPlaceholder": "maslan POLO-001",
+      "status": "Status",
+      "category": "Category",
+      "brand": "Brand",
+      "sellingPrice": "Selling price",
+      "costPrice": "Cost price",
+      "create": "Product banayein",
+      "save": "Changes save karein",
+      "saving": "Save ho raha hai..."
+    },
+    "details": {
+      "title": "Overview",
+      "category": "Category",
+      "brand": "Brand",
+      "variants": "Variants",
+      "costPrice": "Cost price"
+    },
+    "images": {
+      "title": "Images",
+      "subtitle": "Product photos Cloudinary par upload karein",
+      "upload": "Images upload karein",
+      "uploading": "Upload ho rahi hai...",
+      "empty": "Abhi koi image nahi",
+      "primary": "Primary",
+      "setPrimary": "Primary banayein",
+      "remove": "Hata dein",
+      "removeConfirm": "Yeh image hata dein?",
+      "uploadSuccess": "Images upload ho gayi",
+      "removeSuccess": "Image hata di gayi",
+      "primarySuccess": "Primary image update ho gayi"
+    },
+    "errors": {
+      "loadFailed": "Products load nahi ho sakay",
+      "saveFailed": "Product save nahi ho saka",
+      "archiveFailed": "Product archive nahi ho saka",
+      "importFailed": "Import fail ho gaya",
+      "exportFailed": "Export fail ho gaya",
+      "uploadFailed": "Images upload nahi ho saki",
+      "removeImageFailed": "Image remove nahi ho saki",
+      "primaryFailed": "Primary image set nahi ho saki"
+    },
+    "manageCategories": "Categories",
+    "manageBrands": "Brands"
+  },
+  "brands": {
+    "title": "Brands",
+    "subtitle": "Product brands aur logos manage karein",
+    "backToProducts": "Products par wapas",
+    "addBrand": "Naya Brand",
+    "createTitle": "Naya Brand",
+    "editTitle": "Brand Edit",
+    "searchPlaceholder": "Brands search karein...",
+    "emptyTitle": "Koi brand nahi mila",
+    "emptySubtitle": "Pehla brand banayein ya filters change karein.",
+    "readOnly": "Aap brands dekh sakte hain lekin edit nahi kar sakte.",
+    "edit": "Edit",
+    "deactivate": "Deactivate",
+    "createSuccess": "Brand ban gaya",
+    "updateSuccess": "Brand update ho gaya",
+    "deactivateSuccess": "Brand deactivate ho gaya",
+    "deactivateConfirm": "\"{{name}}\" deactivate karein? Yeh active lists se hide ho jayega.",
+    "filters": {
+      "all": "Sab"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "brand": "Brand",
+      "products": "Products",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "{{from}}–{{to}} dikha rahe hain, kul {{total}}",
+      "previous": "Pehle",
+      "next": "Agle"
+    },
+    "form": {
+      "name": "Brand ka naam",
+      "namePlaceholder": "maslan Zyro Basics",
+      "status": "Status",
+      "create": "Brand banayein",
+      "save": "Changes save karein",
+      "saving": "Save ho raha hai...",
+      "cancel": "Cancel"
+    },
+    "logo": {
+      "upload": "Logo upload karein",
+      "uploading": "Upload ho raha hai...",
+      "remove": "Logo hata dein",
+      "uploadSuccess": "Logo upload ho gaya",
+      "removeSuccess": "Logo hata diya gaya",
+      "removeConfirm": "Yeh brand logo hata dein?"
+    },
+    "errors": {
+      "loadFailed": "Brands load nahi ho sakay",
+      "saveFailed": "Brand save nahi ho saka",
+      "deactivateFailed": "Brand deactivate nahi ho saka",
+      "logoUploadFailed": "Logo upload nahi ho saka",
+      "logoRemoveFailed": "Logo remove nahi ho saka"
+    }
+  },
+  "categories": {
+    "title": "Categories",
+    "subtitle": "Nested categories se apna catalog organize karein",
+    "backToProducts": "Products par wapas",
+    "addCategory": "Nayi Category",
+    "createTitle": "Nayi Category",
+    "editTitle": "Category Edit",
+    "searchPlaceholder": "Categories search karein...",
+    "emptyTitle": "Koi category nahi mili",
+    "emptySubtitle": "Pehli category banayein ya filters change karein.",
+    "noParent": "Bina parent (root)",
+    "readOnly": "Aap categories dekh sakte hain lekin edit nahi kar sakte.",
+    "viewTree": "Tree",
+    "viewTable": "Table",
+    "edit": "Edit",
+    "deactivate": "Deactivate",
+    "productCount": "{{count}} products",
+    "createSuccess": "Category ban gayi",
+    "updateSuccess": "Category update ho gayi",
+    "deactivateSuccess": "Category deactivate ho gayi",
+    "deactivateConfirm": "\"{{name}}\" deactivate karein? Yeh active lists se hide ho jayegi.",
+    "filters": {
+      "all": "Sab"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "name": "Naam",
+      "parent": "Parent",
+      "products": "Products",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "{{from}}–{{to}} dikha rahe hain, kul {{total}}",
+      "previous": "Pehle",
+      "next": "Agle"
+    },
+    "form": {
+      "name": "Category ka naam",
+      "namePlaceholder": "maslan Men's Shirts",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional description",
+      "parent": "Parent category",
+      "status": "Status",
+      "create": "Category banayein",
+      "save": "Changes save karein",
+      "saving": "Save ho raha hai...",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Categories load nahi ho sakin",
+      "saveFailed": "Category save nahi ho saki",
+      "deactivateFailed": "Category deactivate nahi ho saki"
+    }
+  },
+  "variants": {
+    "title": "Variant Matrix",
+    "subtitle": "Is product ke liye Color × Size SKUs aur barcodes generate karein",
+    "colors": "Colors",
+    "sizes": "Sizes",
+    "generate": "Variants generate karein",
+    "generating": "Generate ho raha hai...",
+    "readOnly": "Aap variants dekh sakte hain lekin generate ya edit nahi kar sakte.",
+    "emptyTitle": "Abhi koi variant nahi",
+    "emptySubtitle": "Upar colors aur sizes select karke matrix generate karein.",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate",
+    "generateSuccess": "{{created}} variants banay, {{skipped}} skip",
+    "updateSuccess": "Variant update ho gaya",
+    "deactivateSuccess": "Variant deactivate ho gaya",
+    "deactivateConfirm": "{{color}} / {{size}} deactivate karein?",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "color": "Color",
+      "size": "Size",
+      "sku": "SKU",
+      "barcode": "Barcode",
+      "price": "Price",
+      "stock": "Stock",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "errors": {
+      "selectionRequired": "Kam az kam ek color aur ek size select karein",
+      "generateFailed": "Variants generate nahi ho sakay",
+      "updateFailed": "Variant update nahi ho saka",
+      "deactivateFailed": "Variant deactivate nahi ho saka"
+    }
+  },
+  "inventory": {
+    "title": "Inventory",
+    "subtitle": "Stock levels, adjustments aur movement history track karein",
+    "viewStock": "Stock Levels",
+    "viewMovements": "Movement History",
+    "searchPlaceholder": "Product, SKU ya barcode se search karein...",
+    "lowStockOnly": "Sirf low stock",
+    "lowStock": "Low stock",
+    "inStock": "In stock",
+    "readOnly": "Aap inventory dekh sakte hain lekin stock adjust nahi kar sakte.",
+    "adjust": "Adjust",
+    "threshold": "Threshold",
+    "adjustTitle": "Stock Adjust",
+    "thresholdTitle": "Reorder Threshold",
+    "currentQuantity": "Current quantity",
+    "emptyTitle": "Koi inventory record nahi mila",
+    "emptySubtitle": "Pehle product variants generate karein, phir stock records yahan aayenge.",
+    "adjustSuccess": "Stock adjust ho gaya",
+    "thresholdSuccess": "Reorder threshold update ho gaya",
+    "table": {
+      "product": "Product",
+      "variant": "Variant",
+      "sku": "SKU",
+      "barcode": "Barcode",
+      "quantity": "Qty",
+      "threshold": "Threshold",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "{{from}}–{{to}} dikha rahe hain, kul {{total}}",
+      "previous": "Pehle",
+      "next": "Agle"
+    },
+    "form": {
+      "movementType": "Movement type",
+      "adjustmentMode": "Adjustment mode",
+      "modeDelta": "Quantity add ya remove",
+      "modeTarget": "Exact quantity set karein",
+      "quantityDelta": "Quantity change",
+      "targetQuantity": "Target quantity",
+      "reorderThreshold": "Reorder threshold",
+      "reason": "Reason",
+      "reasonPlaceholder": "maslan shipment receive, damaged items",
+      "note": "Note",
+      "notePlaceholder": "Optional note",
+      "save": "Adjustment save karein",
+      "saving": "Save ho raha hai...",
+      "cancel": "Cancel"
+    },
+    "movements": {
+      "emptyTitle": "Abhi koi stock movement nahi",
+      "emptySubtitle": "Adjustments aur sales yahan dikhengi.",
+      "table": {
+        "date": "Date",
+        "product": "Product",
+        "variant": "Variant",
+        "type": "Type",
+        "change": "Change",
+        "balance": "Balance",
+        "reason": "Reason",
+        "user": "User"
+      },
+      "types": {
+        "adjustment": "Adjustment",
+        "damage": "Damage",
+        "loss": "Loss",
+        "opening_stock": "Opening stock",
+        "stock_receive": "Stock receive",
+        "sale": "Sale",
+        "return": "Return",
+        "exchange_in": "Exchange in",
+        "exchange_out": "Exchange out"
+      }
+    },
+    "errors": {
+      "loadFailed": "Inventory load nahi ho saki",
+      "saveFailed": "Inventory change save nahi ho saki"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Store, receipt, tax, users aur POS preferences configure karein",
+    "loading": "Settings load ho rahi hain...",
+    "readOnly": "Sirf dekh sakte hain — changes ke liye admin se rabta karein",
+    "save": "Changes save karein",
+    "saving": "Save ho raha hai...",
+    "saveSuccess": "Settings save ho gayin",
+    "tabs": {
+      "business": "Business",
+      "receipt": "Receipt",
+      "tax": "Tax",
+      "users": "Users",
+      "language": "Language",
+      "printer": "Printer",
+      "barcode": "Barcode Labels",
+      "shortcuts": "Keyboard Shortcuts",
+      "backup": "Backup & Restore",
+      "whatsapp": "WhatsApp Summary"
+    },
+    "business": {
+      "title": "Business Information",
+      "name": "Store name",
+      "email": "Email",
+      "website": "Website",
+      "phone": "Phone",
+      "taxId": "Tax ID / NTN",
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "timezone": "Timezone",
+      "businessDayStart": "Business day start",
+      "returnPolicyDays": "Return policy (days)",
+      "allowOversell": "Out of stock par bhi sale allow karein",
+      "currencyCode": "Currency code",
+      "currencySymbol": "Currency symbol",
+      "logo": "Store logo",
+      "uploadLogo": "Logo upload karein",
+      "removeLogo": "Logo hata dein"
+    },
+    "receipt": {
+      "title": "Receipt & Invoice",
+      "headerText": "Header text",
+      "footerText": "Footer text",
+      "thankYouMessage": "Thank you message",
+      "returnPolicyText": "Return policy text",
+      "defaultFormat": "Default print format",
+      "autoPrint": "Checkout ke baad auto-print",
+      "showBarcode": "Receipt par barcode dikhayen",
+      "showQr": "Receipt par QR code dikhayen",
+      "formats": {
+        "thermal": "Thermal (80mm)",
+        "a4": "A4"
+      }
+    },
+    "tax": {
+      "title": "Tax Settings",
+      "pricesIncludeTax": "Prices mein tax shamil hai",
+      "showTaxOnReceipt": "Receipt par tax dikhayen",
+      "displayTaxBreakdown": "Tax breakdown dikhayen",
+      "classesTitle": "Tax Classes",
+      "addClass": "Tax class add karein",
+      "name": "Name",
+      "rate": "Rate (%)",
+      "default": "Default",
+      "active": "Active",
+      "actions": "Actions",
+      "createSuccess": "Tax class ban gayi",
+      "updateSuccess": "Tax class update ho gayi",
+      "deleteSuccess": "Tax class hata di gayi",
+      "remove": "Hata dein"
+    },
+    "language": {
+      "title": "Language & Format",
+      "defaultLanguage": "Default language",
+      "dateFormat": "Date format",
+      "timeFormat": "Time format",
+      "languages": {
+        "en": "English",
+        "ur-Roman": "Roman Urdu"
+      },
+      "timeFormats": {
+        "12h": "12-hour",
+        "24h": "24-hour"
+      }
+    },
+    "printer": {
+      "title": "Printer Settings",
+      "invoicePrinter": "Invoice printer name",
+      "labelPrinter": "Label printer name",
+      "receiptPaperWidth": "Receipt paper width",
+      "silentPrint": "Silent print (dialog skip)",
+      "widths": {
+        "58mm": "58mm",
+        "80mm": "80mm"
+      }
+    },
+    "barcode": {
+      "title": "Barcode Label Defaults",
+      "defaultTemplate": "Default label template",
+      "showPrice": "Label par price dikhayen",
+      "showProductName": "Product name dikhayen",
+      "showSku": "SKU dikhayen",
+      "defaultCopies": "Default copies per print",
+      "templates": {
+        "40x30": "40 × 30 mm (roll)",
+        "50x25": "50 × 25 mm (roll)",
+        "a4_sheet": "A4 sheet (4×9)"
+      }
+    },
+    "shortcuts": {
+      "title": "Keyboard Shortcuts",
+      "subtitle": "POS speed keys — agli POS session par apply hongi",
+      "action": "Action",
+      "keys": "Shortcut",
+      "description": "Description",
+      "active": "Active",
+      "actions": {
+        "focus_search": "Search / barcode focus",
+        "hold_cart": "Cart hold karein",
+        "resume_cart": "Held cart resume",
+        "charge": "Charge / sale complete",
+        "print_invoice": "Invoice print",
+        "new_sale": "Nayi sale",
+        "lock_session": "Session lock karein"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "addUser": "User add karein",
+      "editUser": "User edit karein",
+      "name": "Full name",
+      "username": "Username",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "landingScreen": "Login ke baad default screen",
+      "password": "Password",
+      "pin": "PIN",
+      "authType": "Login method",
+      "passwordAuth": "Password",
+      "pinAuth": "PIN",
+      "actions": "Actions",
+      "active": "Active",
+      "inactive": "Inactive",
+      "landing": {
+        "dashboard": "Dashboard",
+        "pos": "POS"
+      },
+      "createSuccess": "User ban gaya",
+      "updateSuccess": "User update ho gaya",
+      "searchPlaceholder": "Users search karein...",
+      "empty": "Koi user nahi mila"
+    },
+    "errors": {
+      "loadFailed": "Settings load nahi ho sakin",
+      "saveFailed": "Settings save nahi ho sakin"
+    }
+  },
+  "backup": {
+    "settingsTitle": "Automatic Backup",
+    "settingsSubtitle": "Daily snapshots server par save hoti hain aur retention ke baad purani files delete ho jati hain.",
+    "autoBackupEnabled": "Automatic daily backup enable karein",
+    "backupTime": "Backup time",
+    "retentionDays": "Retention (days)",
+    "saveSettings": "Backup settings save karein",
+    "historyTitle": "Backup History",
+    "historySubtitle": "Manual snapshot banayen ya purani backups download karein.",
+    "createNow": "Abhi backup banayen",
+    "creating": "Backup ban raha hai...",
+    "createSuccess": "Backup successfully ban gaya",
+    "download": "Download",
+    "downloadSuccess": "Backup download ho gaya",
+    "delete": "Delete",
+    "deleteConfirm": "Yeh backup file delete karein?",
+    "deleteSuccess": "Backup delete ho gaya",
+    "loading": "Backups load ho rahi hain...",
+    "empty": "Abhi koi backup nahi",
+    "restoreTitle": "Backup se restore karein",
+    "restoreSubtitle": "Yeh current store data ko backup snapshot se replace kar dega. Sab active sessions logout ho jayengi.",
+    "restoreFile": "Backup file (.json)",
+    "confirmLabel": "Confirm ke liye RESTORE likhein",
+    "confirmPlaceholder": "RESTORE",
+    "restoreAction": "Backup restore karein",
+    "restoring": "Restore ho raha hai...",
+    "restoreSuccess": "Backup successfully restore ho gaya",
+    "table": {
+      "createdAt": "Created",
+      "type": "Type",
+      "status": "Status",
+      "size": "Size",
+      "actions": "Actions"
+    },
+    "types": {
+      "manual": "Manual",
+      "automatic": "Automatic"
+    },
+    "statuses": {
+      "success": "Success",
+      "failed": "Failed"
+    },
+    "errors": {
+      "createFailed": "Backup nahi ban saka",
+      "downloadFailed": "Backup download nahi ho saka",
+      "deleteFailed": "Backup delete nahi ho saka",
+      "restoreFailed": "Backup restore nahi ho saka",
+      "fileRequired": "Restore ke liye backup file select karein",
+      "confirmRequired": "Is action ke liye RESTORE likhein"
+    }
+  },
+  "whatsapp": {
+    "settingsTitle": "WhatsApp Daily Summary",
+    "settingsSubtitle": "Store owner ko shaam ko business digest WhatsApp par bhejein.",
+    "enabled": "Daily WhatsApp summary enable karein",
+    "phoneNumber": "Owner WhatsApp number",
+    "sendTime": "Send time",
+    "ownerName": "Owner name (optional)",
+    "ownerNamePlaceholder": "Store owner ka naam",
+    "includeTopProducts": "Top products shamil karein",
+    "includeLowStock": "Low stock alerts shamil karein",
+    "saveSettings": "WhatsApp settings save karein",
+    "deliveryReady": "Delivery configured hai (Twilio ya dry-run mode).",
+    "deliveryNotConfigured": "Twilio configured nahi. Server par TWILIO_* env vars set karein ya WHATSAPP_DRY_RUN=true enable karein.",
+    "previewTitle": "Message Preview",
+    "previewSubtitle": "Yeh aaj ka digest hai jo bheja jayega.",
+    "sendNow": "Abhi summary bhejein",
+    "sending": "Bheja ja raha hai...",
+    "sendSuccess": "WhatsApp summary bhej di gayi",
+    "sendTest": "Test message bhejein",
+    "testing": "Test bheja ja raha hai...",
+    "testSuccess": "Test message bhej diya gaya",
+    "loadingPreview": "Preview load ho raha hai...",
+    "emptyPreview": "Koi preview available nahi",
+    "historyTitle": "Send History",
+    "loading": "Summaries load ho rahi hain...",
+    "empty": "Abhi koi summary nahi bheji gayi",
+    "table": {
+      "date": "Summary date",
+      "recipient": "Recipient",
+      "status": "Status",
+      "sentAt": "Sent at"
+    },
+    "statuses": {
+      "queued": "Queued",
+      "sent": "Sent",
+      "failed": "Failed"
+    },
+    "errors": {
+      "sendFailed": "WhatsApp summary nahi bheji ja saki",
+      "testFailed": "Test message nahi bheja ja saka"
+    }
+  }
+}

@@ -1,0 +1,1271 @@
+{
+  "app": {
+    "name": "Zyro RMS",
+    "tagline": "Retail Management System"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "signInSubtitle": "Sign in to continue to your store",
+    "username": "Username",
+    "usernamePlaceholder": "Enter your username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "pin": "PIN",
+    "pinPlaceholder": "Enter your 4-digit PIN",
+    "passwordMode": "Password",
+    "pinMode": "PIN",
+    "rememberMe": "Remember me",
+    "signIn": "Sign in",
+    "signingIn": "Signing in...",
+    "logout": "Log out",
+    "loginSuccess": "Welcome, {{name}}",
+    "logoutSuccess": "You have been logged out",
+    "loading": "Loading session...",
+    "errors": {
+      "usernameRequired": "Username is required",
+      "passwordRequired": "Password is required",
+      "pinRequired": "PIN is required",
+      "loginFailed": "Unable to sign in. Please try again.",
+      "logoutFailed": "Unable to log out"
+    }
+  },
+  "sessionLock": {
+    "title": "Session locked",
+    "subtitle": "Enter your credentials to continue",
+    "lock": "Lock session",
+    "locked": "Session locked",
+    "unlocked": "Session unlocked",
+    "unlock": "Unlock",
+    "unlocking": "Unlocking...",
+    "pinMode": "PIN",
+    "passwordMode": "Password",
+    "pin": "PIN",
+    "pinPlaceholder": "Enter your PIN",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "switchUser": "Switch user",
+    "switchingUser": "Signing out...",
+    "errors": {
+      "pinRequired": "PIN is required",
+      "passwordRequired": "Password is required",
+      "unlockFailed": "Invalid PIN or password"
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "pos": "POS",
+    "products": "Products",
+    "inventory": "Inventory",
+    "customers": "Customers",
+    "salesHistory": "Sales History",
+    "exchanges": "Exchanges & Returns",
+    "expenses": "Expenses",
+    "reports": "Reports",
+    "seasonal": "Seasonal Sales",
+    "settings": "Settings"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Business overview for today",
+    "newSale": "New Sale",
+    "loading": "Loading dashboard...",
+    "refreshing": "Updating",
+    "error": "Failed to load dashboard",
+    "live": "Live",
+    "topProducts": "Top Products Today",
+    "lowStock": "Low Stock Alerts",
+    "recentActivity": "Recent Activity",
+    "emptyTopProducts": "No sales yet today",
+    "emptyLowStock": "All stock levels are healthy",
+    "emptyActivity": "No recent activity",
+    "charts": {
+      "revenue": "Revenue Trend",
+      "salesCount": "Sales Count",
+      "lastDays": "Last {{count}} days",
+      "noData": "No data"
+    },
+    "stats": {
+      "todaySales": "Today's Sales",
+      "todayRevenue": "Today's Revenue",
+      "todayProfit": "Today's Profit",
+      "lowStock": "Low Stock Items"
+    },
+    "columns": {
+      "product": "Product",
+      "sku": "SKU",
+      "qtySold": "Qty Sold",
+      "revenue": "Revenue",
+      "onHand": "On Hand",
+      "threshold": "Threshold"
+    },
+    "activity": {
+      "sale": "Sale",
+      "return": "Return",
+      "exchange": "Exchange",
+      "expense": "Expense",
+      "inventory": "Inventory"
+    }
+  },
+  "pos": {
+    "title": "Billing / POS",
+    "newSale": "New Sale",
+    "draftSale": "New Sale",
+    "goToDashboard": "Go to Dashboard",
+    "searchPlaceholder": "Search product name or scan barcode / SKU...",
+    "customer": "Customer",
+    "walkInCustomer": "Walk-in Customer",
+    "clearCustomer": "Use walk-in customer",
+    "customerSearchPlaceholder": "Search by name or phone...",
+    "noCustomersFound": "No customers found",
+    "quickAddCustomer": "Add customer",
+    "emptyCartTitle": "Cart is empty",
+    "emptyCartSubtitle": "Search and scan products to add them to the cart.",
+    "searching": "Looking up product...",
+    "noImage": "No img",
+    "stock": "Stock",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "promoApplied": "{{name}} applied",
+    "tax": "Tax",
+    "total": "Total",
+    "paymentMethod": "Payment method",
+    "amountTendered": "Amount tendered",
+    "amountDue": "Amount due",
+    "change": "Change",
+    "digitalPaymentHint": "Full amount will be recorded on the selected digital payment method.",
+    "completeSale": "Complete Sale",
+    "completing": "Completing...",
+    "holdCart": "Hold Cart",
+    "heldCarts": "Held Carts",
+    "heldCartsSubtitle": "Resume or discard parked sales",
+    "noHeldCarts": "No held carts",
+    "unnamedHold": "Held sale",
+    "resumedHold": "Resumed cart",
+    "items": "items",
+    "resume": "Resume",
+    "close": "Close",
+    "loading": "Loading...",
+    "saleSuccess": "Sale completed — {{invoice}}",
+    "printingInvoice": "Printing invoice...",
+    "holdSuccess": "Cart held successfully",
+    "resumeSuccess": "Held cart loaded",
+    "discardSuccess": "Held cart discarded",
+    "payment": {
+      "cash": "Cash",
+      "card": "Card",
+      "jazzcash": "JazzCash",
+      "easypaisa": "EasyPaisa",
+      "bank_transfer": "Bank Transfer",
+      "bankTransfer": "Bank Transfer"
+    },
+    "errors": {
+      "lookupFailed": "Unable to find product",
+      "previewFailed": "Unable to calculate totals",
+      "checkoutFailed": "Unable to complete sale",
+      "holdFailed": "Unable to hold cart",
+      "resumeFailed": "Unable to resume held cart",
+      "discardFailed": "Unable to discard held cart",
+      "insufficientStock": "Not enough stock available",
+      "outOfStock": "This item is out of stock"
+    }
+  },
+  "customers": {
+    "title": "Customers",
+    "subtitle": "Manage customer profiles and purchase history",
+    "addCustomer": "Add Customer",
+    "createTitle": "New Customer",
+    "editTitle": "Edit Customer",
+    "detailSubtitle": "Profile and purchase history",
+    "searchPlaceholder": "Search by name, phone, or email...",
+    "search": "Search",
+    "loading": "Loading customer...",
+    "view": "View",
+    "edit": "Edit",
+    "deactivate": "Deactivate",
+    "loyalty": "Loyalty points",
+    "loyaltyPoints": "{{count}} points",
+    "recentPurchases": "Recent purchases",
+    "noPurchases": "No purchases yet",
+    "emptyTitle": "No customers found",
+    "emptySubtitle": "Add your first customer or adjust your filters.",
+    "createSuccess": "Customer created successfully",
+    "updateSuccess": "Customer updated successfully",
+    "deactivateSuccess": "Customer deactivated successfully",
+    "deactivateConfirm": "Deactivate \"{{name}}\"? They will be hidden from active lists.",
+    "filters": {
+      "all": "All"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "customer": "Customer",
+      "contact": "Contact",
+      "purchases": "Purchases",
+      "totalSpent": "Total spent",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "Showing {{from}}–{{to}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "form": {
+      "name": "Full name",
+      "namePlaceholder": "e.g. Sara Ahmed",
+      "phone": "Phone",
+      "phonePlaceholder": "e.g. 0300 1234567",
+      "email": "Email",
+      "emailPlaceholder": "Optional email",
+      "address": "Address",
+      "addressPlaceholder": "Optional address",
+      "notes": "Notes",
+      "notesPlaceholder": "Optional notes",
+      "status": "Status",
+      "create": "Create customer",
+      "save": "Save changes",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Unable to load customers",
+      "saveFailed": "Unable to save customer",
+      "deactivateFailed": "Unable to deactivate customer"
+    }
+  },
+  "cashRegister": {
+    "title": "Cash Register",
+    "subtitle": "Open or close your shift and reconcile cash",
+    "registerClosed": "Register Closed",
+    "registerOpen": "Register Open",
+    "openByOther": "Open by {{name}}",
+    "openingAmount": "Opening float",
+    "expectedClosing": "Expected in drawer",
+    "actualClosing": "Counted cash",
+    "variance": "Variance",
+    "varianceNote": "Variance note",
+    "varianceNotePlaceholder": "Explain over/short cash if needed",
+    "transactions": "Transactions",
+    "revenue": "Revenue",
+    "cashSales": "Cash sales",
+    "sessionOpen": "Register is open",
+    "openedAt": "Opened at {{time}}",
+    "openRegister": "Open Register",
+    "opening": "Opening...",
+    "closeRegister": "Close Register",
+    "closing": "Closing...",
+    "startClose": "Close Register",
+    "back": "Back",
+    "cancel": "Cancel",
+    "openSuccess": "Cash register opened",
+    "closeSuccess": "Cash register closed",
+    "lockedTitle": "Register in use",
+    "lockedSubtitle": "{{name}} opened the register for this store. Wait for them to close it or ask a supervisor.",
+    "errors": {
+      "openFailed": "Unable to open cash register",
+      "closeFailed": "Unable to close cash register",
+      "sessionRequired": "Open the cash register before completing a sale"
+    }
+  },
+  "invoices": {
+    "printing": "Printing invoice...",
+    "printSuccess": "Invoice sent to printer",
+    "reprint": "Reprint invoice",
+    "errors": {
+      "printFailed": "Unable to print invoice",
+      "popupBlocked": "Print window blocked — allow popups to print invoices"
+    }
+  },
+  "exchanges": {
+    "title": "Exchanges & Returns",
+    "subtitle": "Look up an invoice, return items, or exchange for a replacement",
+    "startOver": "Start over",
+    "back": "Back",
+    "continue": "Continue to settlement",
+    "confirm": "Complete exchange",
+    "submitting": "Processing...",
+    "loadingSale": "Loading invoice details...",
+    "previewing": "Calculating settlement...",
+    "previewUnavailable": "Unable to calculate settlement for the current selection.",
+    "policyExpired": "Outside return window",
+    "policyOk": "Within {{days}}-day return window",
+    "success": "{{type}} completed — {{number}}",
+    "replacementPlaceholder": "Scan or search replacement SKU / barcode",
+    "addReplacement": "Add replacement",
+    "noReplacements": "Search and add replacement items for this exchange.",
+    "steps": {
+      "lookup": "Find invoice",
+      "select": "Select items",
+      "settlement": "Settlement"
+    },
+    "types": {
+      "return": "Return",
+      "exchange": "Exchange"
+    },
+    "lookup": {
+      "invoice": "Invoice / barcode",
+      "phone": "Customer phone",
+      "invoicePlaceholder": "Invoice number or receipt barcode",
+      "phonePlaceholder": "Customer phone number",
+      "search": "Search",
+      "searching": "Searching...",
+      "empty": "No matching invoices found"
+    },
+    "table": {
+      "product": "Product",
+      "variant": "Variant",
+      "purchased": "Purchased",
+      "returnable": "Returnable",
+      "returnQty": "Return qty",
+      "disposition": "Disposition"
+    },
+    "disposition": {
+      "restock": "Restock",
+      "damaged": "Damaged"
+    },
+    "mode": {
+      "return": "Return only",
+      "exchange": "Exchange for replacement"
+    },
+    "settlement": {
+      "title": "Settlement summary",
+      "returnValue": "Return value",
+      "newValue": "New items value",
+      "net": "Net difference",
+      "even": "No balance due — exchange can complete without payment",
+      "customerPays": "Customer owes {{amount}}",
+      "refund": "Refund {{amount}} to customer"
+    },
+    "override": {
+      "title": "Admin override required — this sale is outside the return policy window",
+      "username": "Admin username",
+      "pin": "Admin PIN or password"
+    },
+    "payment": {
+      "title": "Payment / refund",
+      "notRequired": "No payment or refund is required for this transaction."
+    },
+    "errors": {
+      "lookupFailed": "Unable to find invoice",
+      "previewFailed": "Unable to preview exchange",
+      "replacementFailed": "Unable to find replacement product",
+      "submitFailed": "Unable to complete exchange"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "subtitle": "Analyze sales, profit, inventory, and team performance",
+    "loading": "Loading report...",
+    "empty": "No data for the selected period",
+    "dateFrom": "From",
+    "dateTo": "To",
+    "print": "Print",
+    "exportSuccess": "Report exported successfully",
+    "tabs": {
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "profit": "Profit",
+      "inventory": "Inventory",
+      "top-selling": "Top Selling",
+      "low-selling": "Low Selling",
+      "cashier-performance": "Cashiers",
+      "returns": "Returns",
+      "exchanges": "Exchanges",
+      "payment-methods": "Payments"
+    },
+    "sales": {
+      "totalSales": "Total sales",
+      "revenue": "Revenue",
+      "discounts": "Discounts",
+      "tax": "Tax",
+      "period": "Period",
+      "saleCount": "Sales",
+      "range": "Group by",
+      "ranges": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "monthly": "Monthly",
+        "yearly": "Yearly"
+      },
+      "transactions": "Transactions",
+      "invoice": "Invoice",
+      "cashier": "Cashier",
+      "customer": "Customer",
+      "date": "Date"
+    },
+    "revenue": {
+      "total": "Total revenue",
+      "name": "Name",
+      "quantity": "Quantity",
+      "amount": "Revenue",
+      "share": "Share",
+      "groupBy": "Group by",
+      "groups": {
+        "category": "Category",
+        "brand": "Brand",
+        "product": "Product"
+      }
+    },
+    "profit": {
+      "revenue": "Revenue",
+      "cogs": "COGS",
+      "gross": "Gross profit",
+      "expenses": "Expenses",
+      "net": "Net profit"
+    },
+    "inventory": {
+      "costValue": "Stock at cost",
+      "retailValue": "Stock at retail",
+      "skus": "SKUs in stock",
+      "deadStock": "Dead stock items",
+      "valuation": "Stock valuation",
+      "deadStockTitle": "Dead stock (no recent sales)",
+      "sku": "SKU",
+      "product": "Product",
+      "quantity": "Qty",
+      "lastSale": "Last sale",
+      "neverSold": "Never sold"
+    },
+    "products": {
+      "product": "Product",
+      "sku": "SKU",
+      "quantity": "Quantity",
+      "revenue": "Revenue"
+    },
+    "cashier": {
+      "name": "Cashier",
+      "sales": "Sales",
+      "revenue": "Revenue",
+      "discounts": "Discounts",
+      "exchanges": "Exchanges",
+      "returns": "Returns"
+    },
+    "returns": {
+      "count": "Return count",
+      "value": "Return value"
+    },
+    "exchanges": {
+      "count": "Exchange count",
+      "net": "Net amount",
+      "from": "Returned",
+      "to": "Replacement"
+    },
+    "payments": {
+      "total": "Total collected",
+      "method": "Method",
+      "transactions": "Transactions",
+      "amount": "Amount",
+      "share": "Share"
+    },
+    "errors": {
+      "loadFailed": "Unable to load report",
+      "exportFailed": "Unable to export report",
+      "printFailed": "Unable to print report"
+    }
+  },
+  "barcodes": {
+    "title": "Barcode Labels",
+    "subtitle": "Generate printable labels with store name, product, price, SKU, and scannable barcode",
+    "singleTitle": "Print Label",
+    "bulkTitle": "Print Bulk Labels",
+    "template": "Label size",
+    "copies": "Copies",
+    "variantList": "Variants to print",
+    "useStockCounts": "Use stock counts",
+    "totalLabels": "{{count}} label(s) will be printed",
+    "print": "Print Labels",
+    "printing": "Printing...",
+    "printAll": "Print All Labels",
+    "cancel": "Cancel",
+    "printSuccess": "{{count}} label(s) sent to printer",
+    "templates": {
+      "40x30": "40 × 30 mm (thermal roll)",
+      "50x25": "50 × 25 mm (thermal roll)",
+      "a4_sheet": "A4 sheet (40 × 30 mm grid)"
+    },
+    "table": {
+      "variant": "Variant",
+      "sku": "SKU",
+      "copies": "Copies",
+      "print": "Print"
+    },
+    "errors": {
+      "printFailed": "Unable to print labels",
+      "popupBlocked": "Allow pop-ups to print labels",
+      "noPrintableVariants": "No active variants with barcodes to print"
+    }
+  },
+  "promotions": {
+    "title": "Seasonal Sales",
+    "subtitle": "Schedule date-bound promotions that apply automatically at POS checkout",
+    "addPromotion": "New Promotion",
+    "newPromotion": "Create Promotion",
+    "editPromotion": "Edit Promotion",
+    "createPromotion": "Create Promotion",
+    "saveChanges": "Save Changes",
+    "searchPlaceholder": "Search promotions...",
+    "loading": "Loading promotions...",
+    "emptyTitle": "No promotions yet",
+    "emptySubtitle": "Create a seasonal sale to discount products automatically during the date range.",
+    "createSuccess": "Promotion created successfully",
+    "updateSuccess": "Promotion updated successfully",
+    "deleteSuccess": "Promotion deleted successfully",
+    "deleteConfirm": "Delete this promotion?",
+    "fixedValue": "Rs. {{value}} off",
+    "filters": {
+      "all": "All"
+    },
+    "status": {
+      "active": "Active",
+      "scheduled": "Scheduled",
+      "expired": "Expired"
+    },
+    "types": {
+      "percentage": "Percentage",
+      "fixed": "Fixed amount"
+    },
+    "scopes": {
+      "store_wide": "Store-wide",
+      "product": "Product",
+      "category": "Category",
+      "brand": "Brand"
+    },
+    "precedence": {
+      "most_specific": "Most specific scope wins",
+      "highest_discount": "Highest discount wins"
+    },
+    "table": {
+      "name": "Name",
+      "scope": "Scope",
+      "discount": "Discount",
+      "status": "Status",
+      "dates": "Date range",
+      "usage": "Uses",
+      "actions": "Actions"
+    },
+    "form": {
+      "name": "Promotion name",
+      "namePlaceholder": "Eid Sale, End of Season...",
+      "type": "Discount type",
+      "discountValue": "Discount value",
+      "scope": "Scope",
+      "scopeTarget": "Applies to",
+      "scopeTargetPlaceholder": "Select target",
+      "startAt": "Starts",
+      "endAt": "Ends",
+      "precedence": "Overlap rule"
+    },
+    "pagination": {
+      "summary": "Page {{page}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "cancel": "Cancel",
+    "errors": {
+      "loadFailed": "Unable to load promotions",
+      "saveFailed": "Unable to save promotion",
+      "deleteFailed": "Unable to delete promotion"
+    }
+  },
+  "expenses": {
+    "title": "Expenses",
+    "subtitle": "Track operating costs for an accurate profit picture",
+    "addExpense": "Add Expense",
+    "searchPlaceholder": "Search by category or note...",
+    "search": "Search",
+    "loading": "Loading expenses...",
+    "listTotal": "Filtered total: {{amount}}",
+    "emptyTitle": "No expenses recorded",
+    "emptySubtitle": "Add your first expense to start tracking operating costs.",
+    "createSuccess": "Expense recorded successfully",
+    "updateSuccess": "Expense updated successfully",
+    "deleteSuccess": "Expense deleted successfully",
+    "deleteConfirm": "Delete this expense?",
+    "categoryCreateSuccess": "Category created successfully",
+    "filters": {
+      "allCategories": "All categories"
+    },
+    "summary": {
+      "title": "Monthly summary",
+      "empty": "No expenses in the selected period.",
+      "filteredTotal": "Period total"
+    },
+    "categories": {
+      "title": "Categories",
+      "placeholder": "New category name",
+      "add": "Add",
+      "system": "system"
+    },
+    "table": {
+      "date": "Date",
+      "category": "Category",
+      "amount": "Amount",
+      "payment": "Payment",
+      "recordedBy": "Recorded by",
+      "note": "Note",
+      "receipt": "Receipt",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "Showing {{from}}–{{to}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "form": {
+      "category": "Category",
+      "categoryPlaceholder": "Select category",
+      "amount": "Amount",
+      "amountPlaceholder": "e.g. 5000",
+      "date": "Date",
+      "paymentMethod": "Payment method",
+      "note": "Note",
+      "notePlaceholder": "Optional note",
+      "receipt": "Receipt photo",
+      "viewReceipt": "View current receipt",
+      "create": "Record expense",
+      "save": "Save changes",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Unable to load expenses",
+      "saveFailed": "Unable to save expense",
+      "deleteFailed": "Unable to delete expense",
+      "categoryFailed": "Unable to save category"
+    }
+  },
+  "sales": {
+    "title": "Sales History",
+    "subtitle": "Review completed and voided sales",
+    "searchPlaceholder": "Search invoice, cashier, or customer...",
+    "search": "Search",
+    "loading": "Loading sales...",
+    "emptyTitle": "No sales found",
+    "walkInCustomer": "Walk-in",
+    "payments": "Payments",
+    "void": "Void sale",
+    "voiding": "Voiding...",
+    "voidConfirm": "Void this sale and restore stock?",
+    "voidSuccess": "Sale voided successfully",
+    "table": {
+      "invoice": "Invoice",
+      "date": "Date",
+      "cashier": "Cashier",
+      "customer": "Customer",
+      "total": "Total",
+      "status": "Status"
+    },
+    "status": {
+      "completed": "Completed",
+      "voided": "Voided"
+    },
+    "pagination": {
+      "summary": "Showing {{from}}–{{to}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "errors": {
+      "loadFailed": "Unable to load sales history",
+      "voidFailed": "Unable to void sale"
+    }
+  },
+  "topbar": {
+    "searchPlaceholder": "Search products, customers, invoices...",
+    "registerOpen": "Register Open"
+  },
+  "connectivity": {
+    "offline": "Offline — changes will sync when connected",
+    "pendingSync": "{{count}} pending sync",
+    "syncNow": "Sync now"
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Manage your catalog, pricing, and images",
+    "addProduct": "Add Product",
+    "import": "Import",
+    "importing": "Importing...",
+    "exportCsv": "Export CSV",
+    "exportXlsx": "Export XLSX",
+    "searchPlaceholder": "Search by name or SKU...",
+    "emptyTitle": "No products found",
+    "emptySubtitle": "Create your first product or adjust your filters.",
+    "noCategory": "Uncategorized",
+    "noBrand": "No brand",
+    "createTitle": "New Product",
+    "createSubtitle": "Add a base product before creating variants",
+    "backToList": "Back to products",
+    "archive": "Archive",
+    "archiving": "Archiving...",
+    "readOnly": "You can view this product but cannot edit it.",
+    "createSuccess": "Product created successfully",
+    "updateSuccess": "Product updated successfully",
+    "archiveSuccess": "Product archived successfully",
+    "archiveConfirm": "Archive this product? It will be marked inactive.",
+    "importSuccess": "Import complete: {{created}} created, {{skipped}} skipped, {{failed}} failed",
+    "importPartialFailed": "{{count}} rows failed during import",
+    "exportSuccess": "Products exported successfully",
+    "filters": {
+      "all": "All"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "draft": "Draft"
+    },
+    "table": {
+      "product": "Product",
+      "sku": "SKU",
+      "category": "Category",
+      "price": "Price",
+      "variants": "Variants",
+      "status": "Status"
+    },
+    "pagination": {
+      "summary": "Showing {{from}}–{{to}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "form": {
+      "createHeading": "Product details",
+      "editHeading": "Edit product",
+      "name": "Product name",
+      "namePlaceholder": "e.g. Classic Polo Shirt",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional product description",
+      "baseSku": "Base SKU",
+      "baseSkuPlaceholder": "e.g. POLO-001",
+      "status": "Status",
+      "category": "Category",
+      "brand": "Brand",
+      "sellingPrice": "Selling price",
+      "costPrice": "Cost price",
+      "create": "Create product",
+      "save": "Save changes",
+      "saving": "Saving..."
+    },
+    "details": {
+      "title": "Overview",
+      "category": "Category",
+      "brand": "Brand",
+      "variants": "Variants",
+      "costPrice": "Cost price"
+    },
+    "images": {
+      "title": "Images",
+      "subtitle": "Upload product photos to Cloudinary",
+      "upload": "Upload images",
+      "uploading": "Uploading...",
+      "empty": "No images uploaded yet",
+      "primary": "Primary",
+      "setPrimary": "Set as primary",
+      "remove": "Remove",
+      "removeConfirm": "Remove this image?",
+      "uploadSuccess": "Images uploaded successfully",
+      "removeSuccess": "Image removed successfully",
+      "primarySuccess": "Primary image updated"
+    },
+    "errors": {
+      "loadFailed": "Unable to load products",
+      "saveFailed": "Unable to save product",
+      "archiveFailed": "Unable to archive product",
+      "importFailed": "Unable to import products",
+      "exportFailed": "Unable to export products",
+      "uploadFailed": "Unable to upload images",
+      "removeImageFailed": "Unable to remove image",
+      "primaryFailed": "Unable to set primary image"
+    },
+    "manageCategories": "Categories",
+    "manageBrands": "Brands"
+  },
+  "brands": {
+    "title": "Brands",
+    "subtitle": "Manage product brands and logos",
+    "backToProducts": "Back to products",
+    "addBrand": "Add Brand",
+    "createTitle": "New Brand",
+    "editTitle": "Edit Brand",
+    "searchPlaceholder": "Search brands...",
+    "emptyTitle": "No brands found",
+    "emptySubtitle": "Create your first brand or adjust your filters.",
+    "readOnly": "You can view brands but cannot edit them.",
+    "edit": "Edit",
+    "deactivate": "Deactivate",
+    "createSuccess": "Brand created successfully",
+    "updateSuccess": "Brand updated successfully",
+    "deactivateSuccess": "Brand deactivated successfully",
+    "deactivateConfirm": "Deactivate \"{{name}}\"? It will be hidden from active lists.",
+    "filters": {
+      "all": "All"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "brand": "Brand",
+      "products": "Products",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "Showing {{from}}–{{to}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "form": {
+      "name": "Brand name",
+      "namePlaceholder": "e.g. Zyro Basics",
+      "status": "Status",
+      "create": "Create brand",
+      "save": "Save changes",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "logo": {
+      "upload": "Upload logo",
+      "uploading": "Uploading...",
+      "remove": "Remove logo",
+      "uploadSuccess": "Logo uploaded successfully",
+      "removeSuccess": "Logo removed successfully",
+      "removeConfirm": "Remove this brand logo?"
+    },
+    "errors": {
+      "loadFailed": "Unable to load brands",
+      "saveFailed": "Unable to save brand",
+      "deactivateFailed": "Unable to deactivate brand",
+      "logoUploadFailed": "Unable to upload logo",
+      "logoRemoveFailed": "Unable to remove logo"
+    }
+  },
+  "categories": {
+    "title": "Categories",
+    "subtitle": "Organize your catalog with nested categories",
+    "backToProducts": "Back to products",
+    "addCategory": "Add Category",
+    "createTitle": "New Category",
+    "editTitle": "Edit Category",
+    "searchPlaceholder": "Search categories...",
+    "emptyTitle": "No categories found",
+    "emptySubtitle": "Create your first category or adjust your filters.",
+    "noParent": "No parent (root)",
+    "readOnly": "You can view categories but cannot edit them.",
+    "viewTree": "Tree",
+    "viewTable": "Table",
+    "edit": "Edit",
+    "deactivate": "Deactivate",
+    "productCount": "{{count}} products",
+    "createSuccess": "Category created successfully",
+    "updateSuccess": "Category updated successfully",
+    "deactivateSuccess": "Category deactivated successfully",
+    "deactivateConfirm": "Deactivate \"{{name}}\"? It will be hidden from active lists.",
+    "filters": {
+      "all": "All"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "name": "Name",
+      "parent": "Parent",
+      "products": "Products",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "Showing {{from}}–{{to}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "form": {
+      "name": "Category name",
+      "namePlaceholder": "e.g. Men's Shirts",
+      "description": "Description",
+      "descriptionPlaceholder": "Optional description",
+      "parent": "Parent category",
+      "status": "Status",
+      "create": "Create category",
+      "save": "Save changes",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "loadFailed": "Unable to load categories",
+      "saveFailed": "Unable to save category",
+      "deactivateFailed": "Unable to deactivate category"
+    }
+  },
+  "variants": {
+    "title": "Variant Matrix",
+    "subtitle": "Generate Color × Size SKUs and barcodes for this product",
+    "colors": "Colors",
+    "sizes": "Sizes",
+    "generate": "Generate variants",
+    "generating": "Generating...",
+    "readOnly": "You can view variants but cannot generate or edit them.",
+    "emptyTitle": "No variants yet",
+    "emptySubtitle": "Select colors and sizes above, then generate the matrix.",
+    "edit": "Edit",
+    "save": "Save",
+    "cancel": "Cancel",
+    "deactivate": "Deactivate",
+    "generateSuccess": "{{created}} variants created, {{skipped}} skipped",
+    "updateSuccess": "Variant updated successfully",
+    "deactivateSuccess": "Variant deactivated successfully",
+    "deactivateConfirm": "Deactivate {{color}} / {{size}}?",
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "table": {
+      "color": "Color",
+      "size": "Size",
+      "sku": "SKU",
+      "barcode": "Barcode",
+      "price": "Price",
+      "stock": "Stock",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "errors": {
+      "selectionRequired": "Select at least one color and one size",
+      "generateFailed": "Unable to generate variants",
+      "updateFailed": "Unable to update variant",
+      "deactivateFailed": "Unable to deactivate variant"
+    }
+  },
+  "inventory": {
+    "title": "Inventory",
+    "subtitle": "Track stock levels, adjustments, and movement history",
+    "viewStock": "Stock Levels",
+    "viewMovements": "Movement History",
+    "searchPlaceholder": "Search by product, SKU, or barcode...",
+    "lowStockOnly": "Low stock only",
+    "lowStock": "Low stock",
+    "inStock": "In stock",
+    "readOnly": "You can view inventory but cannot adjust stock.",
+    "adjust": "Adjust",
+    "threshold": "Threshold",
+    "adjustTitle": "Adjust Stock",
+    "thresholdTitle": "Reorder Threshold",
+    "currentQuantity": "Current quantity",
+    "emptyTitle": "No inventory records found",
+    "emptySubtitle": "Generate product variants first, then stock records will appear here.",
+    "adjustSuccess": "Stock adjusted successfully",
+    "thresholdSuccess": "Reorder threshold updated successfully",
+    "table": {
+      "product": "Product",
+      "variant": "Variant",
+      "sku": "SKU",
+      "barcode": "Barcode",
+      "quantity": "Qty",
+      "threshold": "Threshold",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "pagination": {
+      "summary": "Showing {{from}}–{{to}} of {{total}}",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "form": {
+      "movementType": "Movement type",
+      "adjustmentMode": "Adjustment mode",
+      "modeDelta": "Add or remove quantity",
+      "modeTarget": "Set exact quantity",
+      "quantityDelta": "Quantity change",
+      "targetQuantity": "Target quantity",
+      "reorderThreshold": "Reorder threshold",
+      "reason": "Reason",
+      "reasonPlaceholder": "e.g. Received shipment, damaged items",
+      "note": "Note",
+      "notePlaceholder": "Optional note",
+      "save": "Save adjustment",
+      "saving": "Saving...",
+      "cancel": "Cancel"
+    },
+    "movements": {
+      "emptyTitle": "No stock movements yet",
+      "emptySubtitle": "Adjustments and sales will appear here.",
+      "table": {
+        "date": "Date",
+        "product": "Product",
+        "variant": "Variant",
+        "type": "Type",
+        "change": "Change",
+        "balance": "Balance",
+        "reason": "Reason",
+        "user": "User"
+      },
+      "types": {
+        "adjustment": "Adjustment",
+        "damage": "Damage",
+        "loss": "Loss",
+        "opening_stock": "Opening stock",
+        "stock_receive": "Stock receive",
+        "sale": "Sale",
+        "return": "Return",
+        "exchange_in": "Exchange in",
+        "exchange_out": "Exchange out"
+      }
+    },
+    "errors": {
+      "loadFailed": "Unable to load inventory",
+      "saveFailed": "Unable to save inventory change"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Configure store, receipts, tax, users, and POS preferences",
+    "loading": "Loading settings...",
+    "readOnly": "View only — contact an admin to make changes",
+    "save": "Save changes",
+    "saving": "Saving...",
+    "saveSuccess": "Settings saved",
+    "tabs": {
+      "business": "Business",
+      "receipt": "Receipt",
+      "tax": "Tax",
+      "users": "Users",
+      "language": "Language",
+      "printer": "Printer",
+      "barcode": "Barcode Labels",
+      "shortcuts": "Keyboard Shortcuts",
+      "backup": "Backup & Restore",
+      "whatsapp": "WhatsApp Summary"
+    },
+    "business": {
+      "title": "Business Information",
+      "name": "Store name",
+      "email": "Email",
+      "website": "Website",
+      "phone": "Phone",
+      "taxId": "Tax ID / NTN",
+      "address": "Address",
+      "city": "City",
+      "country": "Country",
+      "timezone": "Timezone",
+      "businessDayStart": "Business day starts",
+      "returnPolicyDays": "Return policy (days)",
+      "allowOversell": "Allow selling when out of stock",
+      "currencyCode": "Currency code",
+      "currencySymbol": "Currency symbol",
+      "logo": "Store logo",
+      "uploadLogo": "Upload logo",
+      "removeLogo": "Remove logo"
+    },
+    "receipt": {
+      "title": "Receipt & Invoice",
+      "headerText": "Header text",
+      "footerText": "Footer text",
+      "thankYouMessage": "Thank you message",
+      "returnPolicyText": "Return policy text",
+      "defaultFormat": "Default print format",
+      "autoPrint": "Auto-print after checkout",
+      "showBarcode": "Show barcode on receipt",
+      "showQr": "Show QR code on receipt",
+      "formats": {
+        "thermal": "Thermal (80mm)",
+        "a4": "A4"
+      }
+    },
+    "tax": {
+      "title": "Tax Settings",
+      "pricesIncludeTax": "Prices include tax",
+      "showTaxOnReceipt": "Show tax on receipt",
+      "displayTaxBreakdown": "Display tax breakdown",
+      "classesTitle": "Tax Classes",
+      "addClass": "Add tax class",
+      "name": "Name",
+      "rate": "Rate (%)",
+      "default": "Default",
+      "active": "Active",
+      "actions": "Actions",
+      "createSuccess": "Tax class created",
+      "updateSuccess": "Tax class updated",
+      "deleteSuccess": "Tax class removed",
+      "remove": "Remove"
+    },
+    "language": {
+      "title": "Language & Format",
+      "defaultLanguage": "Default language",
+      "dateFormat": "Date format",
+      "timeFormat": "Time format",
+      "languages": {
+        "en": "English",
+        "ur-Roman": "Roman Urdu"
+      },
+      "timeFormats": {
+        "12h": "12-hour",
+        "24h": "24-hour"
+      }
+    },
+    "printer": {
+      "title": "Printer Settings",
+      "invoicePrinter": "Invoice printer name",
+      "labelPrinter": "Label printer name",
+      "receiptPaperWidth": "Receipt paper width",
+      "silentPrint": "Silent print (skip dialog)",
+      "widths": {
+        "58mm": "58mm",
+        "80mm": "80mm"
+      }
+    },
+    "barcode": {
+      "title": "Barcode Label Defaults",
+      "defaultTemplate": "Default label template",
+      "showPrice": "Show price on label",
+      "showProductName": "Show product name",
+      "showSku": "Show SKU",
+      "defaultCopies": "Default copies per print",
+      "templates": {
+        "40x30": "40 × 30 mm (roll)",
+        "50x25": "50 × 25 mm (roll)",
+        "a4_sheet": "A4 sheet (4×9)"
+      }
+    },
+    "shortcuts": {
+      "title": "Keyboard Shortcuts",
+      "subtitle": "POS speed keys — changes apply on next POS session",
+      "action": "Action",
+      "keys": "Shortcut",
+      "description": "Description",
+      "active": "Active",
+      "actions": {
+        "focus_search": "Focus search / barcode",
+        "hold_cart": "Hold cart",
+        "resume_cart": "Resume held cart",
+        "charge": "Charge / complete sale",
+        "print_invoice": "Print invoice",
+        "new_sale": "New sale",
+        "lock_session": "Lock session"
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "addUser": "Add user",
+      "editUser": "Edit user",
+      "name": "Full name",
+      "username": "Username",
+      "email": "Email",
+      "role": "Role",
+      "status": "Status",
+      "landingScreen": "Default screen after login",
+      "password": "Password",
+      "pin": "PIN",
+      "authType": "Login method",
+      "passwordAuth": "Password",
+      "pinAuth": "PIN",
+      "actions": "Actions",
+      "active": "Active",
+      "inactive": "Inactive",
+      "landing": {
+        "dashboard": "Dashboard",
+        "pos": "POS"
+      },
+      "createSuccess": "User created",
+      "updateSuccess": "User updated",
+      "searchPlaceholder": "Search users...",
+      "empty": "No users found"
+    },
+    "errors": {
+      "loadFailed": "Unable to load settings",
+      "saveFailed": "Unable to save settings"
+    }
+  },
+  "backup": {
+    "settingsTitle": "Automatic Backup",
+    "settingsSubtitle": "Daily snapshots are stored on the server and old files are removed after the retention period.",
+    "autoBackupEnabled": "Enable automatic daily backup",
+    "backupTime": "Backup time",
+    "retentionDays": "Retention (days)",
+    "saveSettings": "Save backup settings",
+    "historyTitle": "Backup History",
+    "historySubtitle": "Create manual snapshots or download previous backups.",
+    "createNow": "Create backup now",
+    "creating": "Creating backup...",
+    "createSuccess": "Backup created successfully",
+    "download": "Download",
+    "downloadSuccess": "Backup downloaded",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this backup file?",
+    "deleteSuccess": "Backup deleted",
+    "loading": "Loading backups...",
+    "empty": "No backups yet",
+    "restoreTitle": "Restore from backup",
+    "restoreSubtitle": "This replaces current store data with the backup snapshot. All active sessions will be logged out.",
+    "restoreFile": "Backup file (.json)",
+    "confirmLabel": "Type RESTORE to confirm",
+    "confirmPlaceholder": "RESTORE",
+    "restoreAction": "Restore backup",
+    "restoring": "Restoring...",
+    "restoreSuccess": "Backup restored successfully",
+    "table": {
+      "createdAt": "Created",
+      "type": "Type",
+      "status": "Status",
+      "size": "Size",
+      "actions": "Actions"
+    },
+    "types": {
+      "manual": "Manual",
+      "automatic": "Automatic"
+    },
+    "statuses": {
+      "success": "Success",
+      "failed": "Failed"
+    },
+    "errors": {
+      "createFailed": "Unable to create backup",
+      "downloadFailed": "Unable to download backup",
+      "deleteFailed": "Unable to delete backup",
+      "restoreFailed": "Unable to restore backup",
+      "fileRequired": "Select a backup file to restore",
+      "confirmRequired": "Type RESTORE to confirm this action"
+    }
+  },
+  "whatsapp": {
+    "settingsTitle": "WhatsApp Daily Summary",
+    "settingsSubtitle": "Send an evening business digest to the store owner via WhatsApp.",
+    "enabled": "Enable daily WhatsApp summary",
+    "phoneNumber": "Owner WhatsApp number",
+    "sendTime": "Send time",
+    "ownerName": "Owner name (optional)",
+    "ownerNamePlaceholder": "Store owner name",
+    "includeTopProducts": "Include top products",
+    "includeLowStock": "Include low stock alerts",
+    "saveSettings": "Save WhatsApp settings",
+    "deliveryReady": "Delivery is configured (Twilio or dry-run mode).",
+    "deliveryNotConfigured": "Twilio is not configured. Set TWILIO_* env vars or enable WHATSAPP_DRY_RUN=true on the server.",
+    "previewTitle": "Message Preview",
+    "previewSubtitle": "This is the digest that will be sent for today.",
+    "sendNow": "Send summary now",
+    "sending": "Sending...",
+    "sendSuccess": "WhatsApp summary sent",
+    "sendTest": "Send test message",
+    "testing": "Sending test...",
+    "testSuccess": "Test message sent",
+    "loadingPreview": "Loading preview...",
+    "emptyPreview": "No preview available",
+    "historyTitle": "Send History",
+    "loading": "Loading summaries...",
+    "empty": "No summaries sent yet",
+    "table": {
+      "date": "Summary date",
+      "recipient": "Recipient",
+      "status": "Status",
+      "sentAt": "Sent at"
+    },
+    "statuses": {
+      "queued": "Queued",
+      "sent": "Sent",
+      "failed": "Failed"
+    },
+    "errors": {
+      "sendFailed": "Unable to send WhatsApp summary",
+      "testFailed": "Unable to send test message"
+    }
+  }
+}

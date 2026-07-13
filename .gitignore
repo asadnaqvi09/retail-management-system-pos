@@ -1,0 +1,25 @@
+docs/
+node_modules/
+dist/
+.env
+.env.local
+*.log
+.DS_Store
+coverage/
+client/dist/
+server/uploads/
+server/backups/
+TEST.md
+TESTING.md
+test.md
+
+# Electron desktop (local only — web deploy uses Vercel + Render)
+client/electron/
+client/dist_electron/
+client/out/
+client/release/
+*.exe
+*.dmg
+*.AppImage
+*.snap
+*.blockmap
